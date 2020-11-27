@@ -17,8 +17,8 @@ users usernameproxy:CL:passwordforproxy
 include /conf/counters
 include /conf/bandlimiters
 
-auth strong
-allow usernameproxy
+auth iponly
+allow * 188.165.205.32,46.105.101.74,144.217.64.10,158.69.126.183,144.217.183.123,46.196.206.142,173.208.188.210,135.181.76.190,104.37.175.241,24.133.173.189
 
 EOF
 }
